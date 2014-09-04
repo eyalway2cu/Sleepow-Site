@@ -1,0 +1,36 @@
+<document>
+	<div class="'feature '.$params['text_id']" cms:eval="class">
+		<div>
+			<cms:choice value="$params['text_id']" cms:eval="value">
+				<option value="neurosensory_algorithms">
+					<svg viewBox="0 0 164 100">
+						<use xlink:href="#icon-neurosensoty-algorithems"/>
+					</svg>
+				</option>
+				<option value="benarul_beats">
+					<svg viewBox="0 0 109 100">
+						<use xlink:href="#icon-multi-band-benarul-beats"/>
+					</svg>
+				</option>
+				<option value="pink_noise">
+					<svg viewBox="0 0 127 100">
+						<use xlink:href="#icon-pink-noise"/>
+					</svg>
+				</option>
+				<option value="psychoacoustic_music">
+					<svg viewBox="0 0 41 100">
+						<use xlink:href="#icon-psychoacoustic-music"/>
+					</svg>
+				</option>
+				<option value="white_noise">
+					<svg viewBox="0 0 135 100">
+						<use xlink:href="#icon-white-noise"/>
+					</svg>
+				</option>
+			</cms:choice>
+		</div>
+
+		<h3><cms:var name="$params['title'][$language]"/></h3>
+		<cms:markdown param="content" multilanguage="yes"/>
+	</div>
+</document>

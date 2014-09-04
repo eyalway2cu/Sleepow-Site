@@ -3,5 +3,19 @@
 <document>
 	<language name="English" short="en">
 		<constant name="site_title">Site title</constant>
+		<constant name="phone">(555) 555-5555</constant>
+		<constant name="give_yourself">Give yourself the gift of a good night sleep</constant>
+		<constant name="sleep_faster">SLEEP FASTER</constant>
+		<constant name="sleep_deeper">SLEEP DEEPER</constant>
+		<constant name="sleep_longer">SLEEP LONGER</constant>
+
+		<constant name="for_myself">For myself</constant>
+		<constant name="as_a_gift">as a gift</constant>
+		<constant name="world">World's #1 pillow combining sleep music in the pillow</constant>
+		<constant name="sleep_genius">sleep genius</constant>
+		<constant name="sleep_genius_description">a revolutionary program that treats what control our sleep the human brain. following our research helping nasa getting astronauts to sleep
+		</constant>
+		<constant name="sleep_better">SLEEP GENIUS HELPS YOU SLEEP BETTER</constant>
+		<constant name="music_engages">Sleep genius Music engages the brain sleep centers through four scientific components</constant>
 	</language>
 </document>

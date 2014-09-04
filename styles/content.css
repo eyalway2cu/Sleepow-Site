@@ -1,0 +1,331 @@
+/**
+ * Style Sheet
+ * Sleepow
+ *
+ * Copyright (c) 2014. by Way2cu
+ * Author: Khalid Sawalhi
+ */
+
+ 
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.inner_wrap {
+	display: block;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+div.wrap.white {
+	background-color: white;
+}
+
+div.wrap h1 {
+	display: block;
+	max-width: 780px;
+	margin: 30px auto;
+	color: white;
+}
+
+
+div.wrap span {
+	display: block;
+
+	margin: 0px auto;
+	padding-top: 380px;
+
+	text-align: center;
+	text-transform: capitalize;
+	color: white;
+	font-size: 4em;
+}
+
+header div.wrap.white {
+	min-height: 120px;
+	box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.7);
+}
+
+header div.wrap.white img {
+	display: inline-block;
+	max-width: 200px;
+	text-align: center;
+	vertical-align: bottom;
+	position: relative;
+	top: 30px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+header div.wrap.white a {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #00B8F0;
+	position: relative;
+	left: 65%;
+	top: 0px;
+	vertical-align: middle;
+	font-size: 1.3em;
+}
+
+header div.wrap.white a svg {
+	width: 35px;
+	height: 35px;
+	fill: #00B8F0;
+}
+
+div.wrap.clouds {
+	background-image: url(../images/header-background.jpg);
+	background-size: auto 800px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	min-height: 800px;
+}
+
+div.wrap.clouds h1 {
+	display: block;
+	margin:0px auto;
+	padding-top: 70px;
+
+	color:#3B5997;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+div.wrap.clouds div.benefits_conteiner {
+	display: block;
+	text-align: center;
+}
+
+div.wrap.clouds div.benefits_conteiner div {
+	display: inline-block;
+	width: 335px;
+	min-height: 224px;
+	margin: 30px 10px;
+	background-image: url(../images/benefits-background.svg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 224px;
+	color: white;
+	font-size: 1.3em;
+	vertical-align: top;
+}
+
+div.wrap.clouds div.benefits_conteiner div svg {
+	display: block;
+	fill:#287FB8;
+	width: 90px;
+	height: 80px;
+	margin: 40px auto;
+}
+
+/**
+ * Call to action buttons
+ */
+div.call_to_action {
+	display: block;
+	padding-top: 50px;
+	margin-left: 0px auto;
+	text-align: center;
+}
+
+div.call_to_action a.for_myself {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 0px 40px;
+	border: 1px solid white;
+	border-radius: calc(10px + 1em);
+	background-color: #F0C30E;
+	box-shadow: 0px 0px 0px 5px #F0C30E;
+	color: white;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+
+div.call_to_action a.for_myself:nth-of-type(2) {
+	background-color: #FF0083;
+	box-shadow: 0px 0px 0px 5px #FF0083; 
+}
+
+div.call_to_action a.for_myself svg {
+	width: 30px;
+	height: 30px;
+	fill: white;
+	padding-left: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+div.wrap.clouds h1:nth-of-type(2) {
+	max-width: 500px;
+}
+
+div.wrap div.article {
+	max-width: 700px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #00B8F0;
+	padding: 0px;
+	padding-right: 470px;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	border: 1px solid #00B8F0;
+	border-radius: 100px;
+	color: white;
+	position: relative;
+}
+
+div.wrap.clouds div.article:after {
+	content: '';
+	width: 460px;
+	height: 209px;
+	background-image: url(../images/pillow.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 209px;
+
+	position: absolute;
+	top: 10px;
+	right: 0px;
+}
+
+div.wrap.clouds div.article h1 {
+	padding-top: 0px;
+	text-align: left;
+	color: white;
+}
+
+div.wrap.clouds div.article p {
+	text-align: left;
+}
+
+div.wrap.stars {
+	min-height: 1280px;
+	background-image: url(../images/stars-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 1280px;
+}
+
+div.wrap.stars span svg {
+	display: block;
+	margin: 10px auto;
+	fill:white;
+	width: 170px;
+	height: 170px;
+}
+
+div.wrap.stars object#video_player {
+	display: block;
+	margin: 0px auto;
+}
+
+div.wrap.black {
+	background-color: black;
+}
+
+div.wrap.black span {
+	padding-top: 50px;
+}
+
+/**
+ * Features
+ */
+div.features_container {
+	display: block;
+	width: 1200px;
+
+	margin: 0px auto;
+	padding-top: 50px;
+	text-align: center;
+
+}
+
+div.features_container div.feature {
+	display: inline-block;
+	vertical-align: top;
+	width: calc((100% - 50px) / 4);
+
+	margin: 0px 5px;
+	margin-bottom: 30px;
+
+	color: white;
+}
+
+div.features_container div.feature h3 {
+	min-height: 2em;
+	line-height: 100%;
+	color: #00B8F0;
+}
+
+div.features_container div.feature h3:empty {
+	display: none;
+}
+
+div.features_container div.feature p {
+	min-height: 3em;
+	line-height: 100%;
+}
+
+div.features_container div.feature > div {
+	display: block;
+	width: 100px;
+
+	margin: 0px auto;
+	padding: 30px;
+
+	border-radius: 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 0px 3px #287FB8;
+}
+
+div.features_container div.feature > div svg {
+	width: 100px;
+	height: 100px;
+
+	fill: white;
+}
+
+div.features_container div.feature.neurosensory_algorithms > div {
+	background-image: url(../images/features/neurosensory.jpg);
+}
+
+div.features_container div.feature.benarul_beats > div {
+	background-image: url(../images/features/multi-band.jpg);
+}
+
+div.features_container div.feature.pink_noise > div {
+	background-image: url(../images/features/pink-noise.jpg);	
+}
+
+div.features_container div.psychoacoustic_music > div {
+	background-image: url(../images/features/psychoacoustic-music.jpg);		
+}
+
+div.features_container div.white_noise > div {
+	background-image: url(../images/features/white-noise.jpg);
+	box-shadow: 0px 0px 0px 3px #99A3AA;
+} 
+
+div.wrap.bg_woman{
+	min-height: 1418px;
+	background-image: url(../images/sleep-genius-background.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: auto 1418px;
+}
+
+
+div.wrap.white div.article {
+	padding:0px;
+	padding-left: 40px;
+}
