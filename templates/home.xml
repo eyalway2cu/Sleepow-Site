@@ -110,7 +110,55 @@
 						action="show"
 						text_id="wrap_white_article"
 					/>
+					<div class="unique_container">
+						<h2><cms:text constant="unique_1"/></h2>
+						<h2><cms:text constant="unique_2"/></h2>
+						<h2><cms:text constant="unique_3"/></h2>
+					</div>
 				</div>
+				<div class="wrap bg_coffe">
+					<img
+						src="_BASEURL.'/site/images/text-title.svg'"
+						alt="text-title"
+						cms:eval="src"
+					/>
+				</div>
+				<div class="wrap specs_bg">
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="article_specs_bg"
+					/>
+				</div>
+				<div class="wrap white doctor">
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="article_doctor"
+					/>
+					<div class="container_links">
+						<h1><cms:text constant="get_sleepow"/></h1>
+						<div class="call_to_action">
+							<a
+								href="#"
+								class="for_myself"
+								>
+								<cms:text constant="for_myself"/>
+								<svg class="icon icon-star" viewBox="0 0 105 100"><use xlink:href="#icon-star"></use></svg>
+							</a>
+							<a
+								href="#"
+								class="for_myself"
+								>
+								<cms:text constant="as_a_gift"/>
+								<svg class="icon icon-gift" viewBox="0 0 89 100"><use xlink:href="#icon-gift"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+				<footer>
+					<h1><cms:text constant="give_yourself"/></h1>
+				</footer>
 		</body>
 	</html>
 </document>
