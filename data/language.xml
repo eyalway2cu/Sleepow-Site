@@ -11,11 +11,15 @@
 
 		<constant name="for_myself">For myself</constant>
 		<constant name="as_a_gift">as a gift</constant>
+		<constant name="unique_1"><![CDATA[MP3 &amp; SPEAKERS EMBEDDED IN THE SLEEPOW]]></constant>
+		<constant name="unique_2"><![CDATA[BINAURAL BEATS - RELAXATION & SLEEP MUSIC]]></constant>
+		<constant name="unique_3"><![CDATA[ENDORSE SLEEP & REDUCE STRESS]]></constant>
 		<constant name="world">World's #1 pillow combining sleep music in the pillow</constant>
 		<constant name="sleep_genius">sleep genius</constant>
 		<constant name="sleep_genius_description">a revolutionary program that treats what control our sleep the human brain. following our research helping nasa getting astronauts to sleep
 		</constant>
 		<constant name="sleep_better">SLEEP GENIUS HELPS YOU SLEEP BETTER</constant>
 		<constant name="music_engages">Sleep genius Music engages the brain sleep centers through four scientific components</constant>
+		<constant name="get_sleepow">GET SLEEPOW NOW AND EXPERIENCE THE DIFFERENCE</constant>
 	</language>
 </document>
