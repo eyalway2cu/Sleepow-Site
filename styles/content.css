@@ -55,23 +55,34 @@ header div.wrap.clouds img {
 	margin-left: -100px;
 }
 
-header div.wrap.clouds a {
-	display: inline-block;
-	text-decoration: none;
-	margin-left: 10px;
-	margin-right: 10px;
-	color: #00B8F0;
+header div.wrap.clouds a.upper{
 	position: relative;
+	color: #00B8F0;
 	left: 65%;
 	top: 0px;
+	text-decoration: none;
 	vertical-align: middle;
+	display: inline-block;
+	font-weight: bold;
 	font-size: 1.3em;
+	padding-left: 10px;
 }
 
-header div.wrap.clouds a svg {
+header div.wrap.clouds a.upper svg {
+	fill:#00B8F0;
 	width: 35px;
-	height: 35px;
-	fill: #00B8F0;
+	height: 35px
+}
+
+
+header div.wrap.clouds a svg {
+	width: 1em;
+	height: 1em;
+	fill:white;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	top: -1px;
 }
 
 div.wrap.clouds {
@@ -144,6 +155,7 @@ div.call_to_action a.for_myself {
 	line-height: 100%;
 	transition: 0.3s all;
 	font-weight: bold;
+	line-height: -1em;
 }
 
 div.call_to_action a.for_myself:hover {
@@ -216,6 +228,7 @@ div.wrap.clouds div.article h1 {
 
 div.wrap.clouds div.article p {
 	text-align: left;
+	font-size: 1.1em;
 }
 
 div.wrap.stars {
@@ -237,6 +250,7 @@ div.wrap.stars span svg {
 div.wrap.stars object#video_player {
 	display: block;
 	margin: 0px auto;
+	border: 1px solid #287FB8;
 }
 
 div.wrap.black {
@@ -337,10 +351,17 @@ div.wrap.bg_woman{
 
 
 div.wrap.white div.article {
-	text-align: center;
-	padding: 0px;
-	max-width: 510px;
+	padding: 0px 30px;
+	max-width: 600px;
 	margin-top: 0px;
+}
+
+div.wrap.white div.article.center {
+	text-align: center;
+}
+
+div.wrap.white div.article.center p {
+	font-size: 1.4em;
 }
 
 div.unique_container {
@@ -423,7 +444,6 @@ div.wrap.specs_bg div.article {
 
 div.wrap div.article h1 {
 	color: #00B8F0;
-	font-size: 2.4rem;	
 }
 
 div.wrap.specs_bg div.article p {

@@ -1,5 +1,5 @@
 <document>
-	<div class="article">
+	<div class="article center">
 		<cms:markdown param="content" multilanguage="yes"/>
 	</div>
 </document>
