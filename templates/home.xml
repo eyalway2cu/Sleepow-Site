@@ -11,7 +11,7 @@
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<cms:svg file="sprites.svg"/>
 			<header>
-				<div class="wrap white">
+				<div class="wrap clouds">
 					<img
 						src="_BASEURL.'/site/images/logo.svg'"
 						alt="site_title"
@@ -22,17 +22,15 @@
 						 eval="href" 
 						 class=""
 					>
-					<cms:text constant="phone"/>
-				</a>
-				<a
-					 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
-					 eval="href" 
-					 class=""
-				>
-				<svg class="icon icon-facebook" viewBox="0 0 86 100"><use xlink:href="#icon-facebook"></use></svg>
-			</a>
-				</div>
-				<div class="wrap clouds">
+						<cms:text constant="phone"/>
+					</a>
+					<a
+						 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
+						 eval="href" 
+						 class=""
+					>
+						<svg class="icon icon-facebook" viewBox="0 0 86 100"><use xlink:href="#icon-facebook"></use></svg>
+					</a>
 					<h1><cms:text constant="give_yourself"/></h1>
 					<div class="benefits_conteiner">
 						<div>
@@ -109,6 +107,7 @@
 						name="articles"
 						action="show"
 						text_id="wrap_white_article"
+						template="parts/article.xml"
 					/>
 					<div class="unique_container">
 						<h2><cms:text constant="unique_1"/></h2>
