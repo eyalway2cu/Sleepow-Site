@@ -44,14 +44,9 @@ div.wrap span {
 	font-size: 4em;
 }
 
-header div.wrap.white {
-	min-height: 120px;
-	box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.7);
-}
-
-header div.wrap.white img {
+header div.wrap.clouds img {
 	display: inline-block;
-	max-width: 200px;
+	width: 200px;
 	text-align: center;
 	vertical-align: bottom;
 	position: relative;
@@ -60,7 +55,7 @@ header div.wrap.white img {
 	margin-left: -100px;
 }
 
-header div.wrap.white a {
+header div.wrap.clouds a {
 	display: inline-block;
 	text-decoration: none;
 	margin-left: 10px;
@@ -73,7 +68,7 @@ header div.wrap.white a {
 	font-size: 1.3em;
 }
 
-header div.wrap.white a svg {
+header div.wrap.clouds a svg {
 	width: 35px;
 	height: 35px;
 	fill: #00B8F0;
@@ -136,8 +131,8 @@ div.call_to_action {
 
 div.call_to_action a.for_myself {
 	display: inline-block;
-	padding: 10px 20px;
-	margin: 0px 40px;
+	padding: 15px 20px;
+	margin: 0px 30px;
 	border: 1px solid white;
 	border-radius: calc(10px + 1em);
 	background-color: #F0C30E;
@@ -145,9 +140,10 @@ div.call_to_action a.for_myself {
 	color: white;
 	text-transform: capitalize;
 	text-decoration: none;
-	font-size: 1.3em;
-
+	font-size: 1.5em;
+	line-height: 100%;
 	transition: 0.3s all;
+	font-weight: bold;
 }
 
 div.call_to_action a.for_myself:hover {
@@ -166,12 +162,15 @@ div.call_to_action a.for_myself:nth-of-type(2):hover {
 }
 
 div.call_to_action a.for_myself svg {
-	width: 30px;
-	height: 30px;
+	width: 1em;
+	height: 1em;
 	fill: white;
 	padding-left: 10px;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
+
+	position: relative;
+	top: -1px;
 }
 
 div.wrap.clouds h1:nth-of-type(2) {
@@ -338,10 +337,9 @@ div.wrap.bg_woman{
 
 
 div.wrap.white div.article {
+	text-align: center;
 	padding: 0px;
-	padding-left: 40px;
-	font-size: 1.7em;
-	max-width: 900px;
+	max-width: 510px;
 	margin-top: 0px;
 }
 
@@ -354,6 +352,7 @@ div.unique_container h2 {
 	display: inline-block;
 	position: relative;
 	max-width: 370px;
+	margin-top: 100px;
 	padding: 230px 15px 20px 15px;
 	text-align: center;
 	vertical-align: top;
@@ -422,8 +421,9 @@ div.wrap.specs_bg div.article {
 	left: 370px;
 }
 
-div.wrap.specs_bg div.article h1 {
-	color: #00B8F0;	
+div.wrap div.article h1 {
+	color: #00B8F0;
+	font-size: 2.4rem;	
 }
 
 div.wrap.specs_bg div.article p {
