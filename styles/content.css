@@ -342,10 +342,10 @@ div.features_container div.white_noise > div {
 } 
 
 div.wrap.bg_woman{
-	min-height: 1418px;
+	padding-top: 1065px;
 	background-image: url(../images/sleep-genius-background.jpg);
 	background-repeat: no-repeat;
-	background-position: bottom center;
+	background-position: top center;
 	background-size: auto 1418px;
 }
 
@@ -356,11 +356,12 @@ div.wrap.white div.article {
 	margin-top: 0px;
 }
 
-div.wrap.white div.article.center {
+div.wrap.bg_woman div.article.center {
+	padding: 20px;
 	text-align: center;
 }
 
-div.wrap.white div.article.center p {
+div.wrap.bg_woman div.article.center p {
 	font-size: 1.4em;
 }
 
@@ -469,10 +470,10 @@ div.wrap.white.doctor div.article {
 	position: absolute;
 	left: 50%;
 
-	background-image: url(../images/doctor.jpg);
+	background-image: url(../images/doc.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size: auto 665px;
+	background-size: auto 660px;
 }
 
 div.wrap.white.doctor div.article h1 , div.container_links h1 {
