@@ -11,26 +11,55 @@
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<cms:svg file="sprites.svg"/>
 			<header>
+				<cms:mobile>
+					<div class="wrap white">
+						<img
+							src="_BASEURL.'/site/images/logo.svg'"
+							alt="site_title"
+							cms:eval="src"
+						/>
+						<a
+							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText('#'))"
+							 class="upper"
+							 eval="href" 
+						>
+							<img
+								src="_BASEURL.'/site/images/phone-icon.svg'"
+								alt="icon"
+								cms:eval="src"
+							/>
+						</a>
+						<a
+							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
+							 class="upper"
+							 eval="href" 
+						>
+							<svg class="icon icon-facebook" viewBox="0 0 86 100"><use xlink:href="#icon-facebook"></use></svg>
+						</a>
+					</div>
+				</cms:mobile>
 				<div class="wrap clouds">
-					<img
-						src="_BASEURL.'/site/images/logo.svg'"
-						alt="site_title"
-						cms:eval="src"
-					/>
-					<a
-						 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText('#'))"
-						 class="upper"
-						 eval="href" 
-					>
-						<cms:text constant="phone"/>
-					</a>
-					<a
-						 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
-						 class="upper"
-						 eval="href" 
-					>
-						<svg class="icon icon-facebook" viewBox="0 0 86 100"><use xlink:href="#icon-facebook"></use></svg>
-					</a>
+					<cms:desktop>
+						<img
+							src="_BASEURL.'/site/images/logo.svg'"
+							alt="site_title"
+							cms:eval="src"
+						/>
+						<a
+							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText('#'))"
+							 class="upper"
+							 eval="href" 
+						>
+							<cms:text constant="phone"/>
+						</a>
+						<a
+							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
+							 class="upper"
+							 eval="href" 
+						>
+							<svg class="icon icon-facebook" viewBox="0 0 86 100"><use xlink:href="#icon-facebook"></use></svg>
+						</a>
+					</cms:desktop>
 					<h1><cms:text constant="give_yourself"/></h1>
 					<div class="benefits_conteiner">
 						<div>
