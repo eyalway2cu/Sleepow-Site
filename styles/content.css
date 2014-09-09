@@ -418,8 +418,9 @@ div.wrap.bg_coffe {
 
 div.wrap.bg_coffe img {
 	position: absolute;
-	left: 550px;
-	top: -100px;
+	right: 50px;
+	top: 125px;
+	margin-right: 360px;
 }
 
 div.wrap.specs_bg {
