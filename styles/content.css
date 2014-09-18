@@ -247,7 +247,7 @@ div.wrap.stars span svg {
 	height: 170px;
 }
 
-div.wrap.stars object#video_player {
+div.wrap.stars iframe.video {
 	display: block;
 	margin: 0px auto;
 	border: 1px solid #287FB8;
