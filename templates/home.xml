@@ -77,14 +77,14 @@
 					</div>
 					<div class="call_to_action">
 						<a
-							href="#"
+							href="http://www.sleepmusicpillow.com/cart/440078433:1"
 							class="for_myself"
 							>
 							<cms:text constant="for_myself"/>
 							<svg class="icon icon-star" viewBox="0 0 105 100"><use xlink:href="#icon-star"></use></svg>
 						</a>
 						<a
-							href="#"
+							href="http://www.sleepmusicpillow.com/cart/440078433:1"
 							class="for_myself"
 							>
 							<cms:text constant="as_a_gift"/>
@@ -182,14 +182,14 @@
 						<h1><cms:text constant="get_sleepow"/></h1>
 						<div class="call_to_action">
 							<a
-								href="#"
+								href="http://www.sleepmusicpillow.com/cart/440078433:1"
 								class="for_myself"
 								>
 								<cms:text constant="for_myself"/>
 								<svg class="icon icon-star" viewBox="0 0 105 100"><use xlink:href="#icon-star"></use></svg>
 							</a>
 							<a
-								href="#"
+								href="http://www.sleepmusicpillow.com/cart/440078433:1"
 								class="for_myself"
 								>
 								<cms:text constant="as_a_gift"/>
