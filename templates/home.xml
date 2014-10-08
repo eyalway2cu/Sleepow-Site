@@ -6,6 +6,11 @@
 		<head>
 			<title><cms:text constant="site_title"/></title>
 			<cms:module name="head_tag" action="print_tag"/>
+			<meta property="og:url" content="http://pillow.expert" />
+			<meta property="og:title" content="Sleepow - The first music therapy pillow" /> 
+			<meta property="og:description" content="World’s first memory foam pillow featuring a fully-integrated stereo sound machine pre-loaded with Binaural Beats relaxation music Leverages the power of music to promote relaxation and sleep" /> 
+			<meta property="og:image" content="http://pillow.expert/site/images/facebookog.png" />
+			<meta property="og:type" content="website" />
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
@@ -18,7 +23,7 @@
 							alt="site_title"
 							cms:eval="src"
 						/>
-						<a
+						<!-- <a
 							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText('#'))"
 							 class="upper"
 							 eval="href" 
@@ -28,11 +33,10 @@
 								alt="icon"
 								cms:eval="src"
 							/>
-						</a>
+						</a> -->
 						<a
-							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
-							 class="upper"
-							 eval="href" 
+							 href="https://www.facebook.com/Sleepow"
+							 class="upper" 
 						>
 							<svg class="icon icon-facebook" viewBox="0 0 86 100"><use xlink:href="#icon-facebook"></use></svg>
 						</a>
@@ -45,17 +49,16 @@
 							alt="site_title"
 							cms:eval="src"
 						/>
-						<a
+						<!-- <a
 							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText('#'))"
 							 class="upper"
 							 eval="href" 
 						>
 							<cms:text constant="phone"/>
-						</a>
+						</a> -->
 						<a
-							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
+							 href="https://www.facebook.com/Sleepow"
 							 class="upper"
-							 eval="href" 
 						>
 							<svg class="icon icon-facebook" viewBox="0 0 86 100"><use xlink:href="#icon-facebook"></use></svg>
 						</a>
@@ -77,14 +80,14 @@
 					</div>
 					<div class="call_to_action">
 						<a
-							href="#"
+							href="http://www.sleepmusicpillow.com/cart/618180873:1"
 							class="for_myself"
 							>
 							<cms:text constant="for_myself"/>
 							<svg class="icon icon-star" viewBox="0 0 105 100"><use xlink:href="#icon-star"></use></svg>
 						</a>
 						<a
-							href="#"
+							href="http://www.sleepmusicpillow.com/cart/618180873:1"
 							class="for_myself"
 							>
 							<cms:text constant="as_a_gift"/>
@@ -137,12 +140,14 @@
 					<span><cms:text constant="sleep_better"/></span>
 					<h1><cms:text constant="music_engages"/></h1>
 					<div class="features_container">
-						<cms:module
-							name="articles"
-							action="show_list"
-							group="features"
-							template="parts/feature.xml"
-							/>
+						<div class="inner_wrap">
+							<cms:module
+								name="articles"
+								action="show_list"
+								group="features"
+								template="parts/feature.xml"
+								/>
+						</div>
 					</div>
 				</div>
 				<div class="wrap bg_woman">
@@ -159,18 +164,22 @@
 					</div>
 				</div>
 				<div class="wrap bg_coffe">
-					<img
-						src="_BASEURL.'/site/images/text-title-new.svg'"
-						alt="text-title"
-						cms:eval="src"
-					/>
+					<div class="inner_wrap">
+						<img
+							src="_BASEURL.'/site/images/text-title-new.svg'"
+							alt="text-title"
+							cms:eval="src"
+						/>
+					</div>
 				</div>
 				<div class="wrap specs_bg">
-					<cms:module
-						name="articles"
-						action="show"
-						text_id="article_specs_bg"
-					/>
+					<div class="inner_wrap">
+						<cms:module
+							name="articles"
+							action="show"
+							text_id="article_specs_bg"
+						/>
+					</div>
 				</div>
 				<div class="wrap white doctor">
 					<cms:module
@@ -182,14 +191,14 @@
 						<h1><cms:text constant="get_sleepow"/></h1>
 						<div class="call_to_action">
 							<a
-								href="#"
+								href="http://www.sleepmusicpillow.com/cart/618180873:1"
 								class="for_myself"
 								>
 								<cms:text constant="for_myself"/>
 								<svg class="icon icon-star" viewBox="0 0 105 100"><use xlink:href="#icon-star"></use></svg>
 							</a>
 							<a
-								href="#"
+								href="http://www.sleepmusicpillow.com/cart/618180873:1"
 								class="for_myself"
 								>
 								<cms:text constant="as_a_gift"/>
@@ -201,6 +210,8 @@
 				<footer>
 					<h1><cms:text constant="give_yourself"/></h1>
 				</footer>
+				<cms:raw file="parts/remarketing.txt"/>
+				<cms:raw file="parts/luckyorange.txt"/>
 		</body>
 	</html>
 </document>
