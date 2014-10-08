@@ -9,6 +9,10 @@
 		<constant name="sleep_deeper">SLEEP DEEPER</constant>
 		<constant name="sleep_longer">SLEEP LONGER</constant>
 
+		<constant name="original_price"><![CDATA[Original Price <del>$129</del>]]></constant>
+		<constant name="now_only">NOW ONLY</constant>
+		<constant name="99$">$99</constant>
+
 		<constant name="for_myself">For myself</constant>
 		<constant name="as_a_gift">as a gift</constant>
 		<constant name="unique_1"><![CDATA[MP3 &amp; SPEAKERS EMBEDDED IN THE SLEEPOW]]></constant>
