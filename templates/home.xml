@@ -47,6 +47,7 @@
 						<img
 							src="_BASEURL.'/site/images/logo.svg'"
 							alt="site_title"
+							class="logo"
 							cms:eval="src"
 						/>
 						<!-- <a
@@ -78,6 +79,48 @@
 							<cms:text constant="sleep_longer"/>
 						</div>
 					</div>
+					<cms:desktop>
+						<div class="pricing">
+							<img 
+								src="_BASEURL.'/site/images/ticket.svg'" 
+								alt="ticket"
+								class="ticket"
+								cms:eval="src"
+								/>
+							<img 
+								src="_BASEURL.'/site/images/box_doctor.png'" 
+								alt="ticket box"
+								class="doctorbox"
+								cms:eval="src"
+								/>
+							<div class="pricing_text">
+								<span>
+									<cms:text constant="original_price"/>
+								</span>
+								<span>
+									<cms:text constant="now_only"/>
+								</span>
+								<span>
+									<cms:text constant="99$"/>
+								</span>
+							</div>
+						</div>
+					</cms:desktop>
+					<cms:mobile>
+						<div class="pricing">
+							<div class="pricing_text">
+								<span>
+									<cms:text constant="original_price"/>
+								</span>
+								<span>
+									<cms:text constant="now_only"/>
+								</span>
+								<span>
+									<cms:text constant="99$"/>
+								</span>
+							</div>
+						</div>
+					</cms:mobile>
 					<div class="call_to_action">
 						<a
 							href="http://www.sleepmusicpillow.com/cart/618180873:1"

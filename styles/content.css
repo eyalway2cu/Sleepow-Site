@@ -130,6 +130,61 @@ div.wrap.clouds div.benefits_conteiner div svg {
 	margin: 40px auto;
 }
 
+div.wrap.clouds div.pricing {
+	display: block;
+	position: relative;
+	width: 1000px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.wrap.clouds div.pricing img {
+	position: absolute;
+}
+
+div.wrap.clouds div.pricing img:first-of-type {
+	width: 600px;
+	left: 450px;
+	top: 100px;
+}
+
+div.wrap.clouds div.pricing img:last-of-type {
+	width: 400px;
+	left: 150px;
+	top: 10px;
+}
+
+div.wrap.clouds div.pricing div.pricing_text {
+	position: absolute;
+	top: 120px;
+	right: 54px;
+	width: 360px;
+}
+
+div.wrap.clouds div.pricing div.pricing_text span {
+	padding-top: 0;
+}
+
+div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(1) {
+	color: #94a4a5;
+	font-size: 2.2em;
+	border-bottom: 1px solid #94a4a5;
+}
+
+div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(2) {
+	color: #287fb8;
+	font-size: 2.8em;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(3) {
+	color: #287fb8;
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
 /**
  * Call to action buttons
  */
