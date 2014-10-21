@@ -22,21 +22,11 @@
 							src="_BASEURL.'/site/images/logo.svg'"
 							alt="site_title"
 							cms:eval="src"
-						/>
-						<!-- <a
-							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText('#'))"
-							 class="upper"
-							 eval="href" 
-						>
-							<img
-								src="_BASEURL.'/site/images/phone-icon.svg'"
-								alt="icon"
-								cms:eval="src"
 							/>
-						</a> -->
-						<a
+
+					<a
 							 href="https://www.facebook.com/Sleepow"
-							 class="upper" 
+							 class="upper"
 						>
 							<svg class="icon icon-facebook" viewBox="0 0 86 100"><use xlink:href="#icon-facebook"></use></svg>
 						</a>
@@ -50,13 +40,7 @@
 							class="logo"
 							cms:eval="src"
 						/>
-						<!-- <a
-							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText('#'))"
-							 class="upper"
-							 eval="href" 
-						>
-							<cms:text constant="phone"/>
-						</a> -->
+
 						<a
 							 href="https://www.facebook.com/Sleepow"
 							 class="upper"
@@ -64,21 +48,8 @@
 							<svg class="icon icon-facebook" viewBox="0 0 86 100"><use xlink:href="#icon-facebook"></use></svg>
 						</a>
 					</cms:desktop>
+					<h1><cms:text constant="question" /></h1>
 					<h1><cms:text constant="give_yourself"/></h1>
-					<div class="benefits_conteiner">
-						<div>
-							<svg class="icon icon-sleep-faster" viewBox="0 0 87 100"><use xlink:href="#icon-sleep-faster"></use></svg>
-							<cms:text constant="sleep_faster"/>
-						</div>
-						<div>
-							<svg class="icon icon-sleep-deeper" viewBox="0 0 109 100"><use xlink:href="#icon-sleep-deeper"></use></svg>
-							<cms:text constant="sleep_deeper"/>
-						</div>
-						<div>
-							<svg class="icon icon-sleep-longer" viewBox="0 0 106 100"><use xlink:href="#icon-sleep-longer"></use></svg>
-							<cms:text constant="sleep_longer"/>
-						</div>
-					</div>
 					<cms:desktop>
 						<div class="pricing">
 							<img 
@@ -136,6 +107,20 @@
 							<cms:text constant="as_a_gift"/>
 							<svg class="icon icon-gift" viewBox="0 0 89 100"><use xlink:href="#icon-gift"></use></svg>
 						</a>
+					</div>
+					<div class="benefits_conteiner">
+						<div>
+							<svg class="icon icon-sleep-faster" viewBox="0 0 87 100"><use xlink:href="#icon-sleep-faster"></use></svg>
+							<cms:text constant="sleep_faster"/>
+						</div>
+						<div>
+							<svg class="icon icon-sleep-deeper" viewBox="0 0 109 100"><use xlink:href="#icon-sleep-deeper"></use></svg>
+							<cms:text constant="sleep_deeper"/>
+						</div>
+						<div>
+							<svg class="icon icon-sleep-longer" viewBox="0 0 106 100"><use xlink:href="#icon-sleep-longer"></use></svg>
+							<cms:text constant="sleep_longer"/>
+						</div>
 					</div>
 					<h1><cms:text constant="world"/></h1>
 					<cms:module

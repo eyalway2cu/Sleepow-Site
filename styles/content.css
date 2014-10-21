@@ -6,7 +6,7 @@
  * Author: Khalid Sawalhi
  */
 
- 
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -105,6 +105,7 @@ div.wrap.clouds h1{
 
 div.wrap.clouds div.benefits_conteiner {
 	display: block;
+	padding-top: 30px;
 	text-align: center;
 }
 
@@ -146,18 +147,18 @@ div.wrap.clouds div.pricing img {
 div.wrap.clouds div.pricing img:first-of-type {
 	width: 600px;
 	left: 450px;
-	top: 100px;
+	top: 140px;
 }
 
 div.wrap.clouds div.pricing img:last-of-type {
 	width: 400px;
 	left: 150px;
-	top: 10px;
+	top: 35px;
 }
 
 div.wrap.clouds div.pricing div.pricing_text {
 	position: absolute;
-	top: 120px;
+	top: 160px;
 	right: 54px;
 	width: 360px;
 }
@@ -190,8 +191,8 @@ div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(3) {
  */
 div.call_to_action {
 	display: block;
-	padding-top: 50px;
-	margin-left: 0px auto;
+	padding-top: 85px;
+	margin: 0px auto;
 	text-align: center;
 }
 
@@ -241,7 +242,7 @@ div.call_to_action a.for_myself svg {
 }
 
 div.wrap.clouds h1:nth-of-type(2) {
-	max-width: 500px;
+	padding-top: 20px;
 }
 
 div.wrap div.article {

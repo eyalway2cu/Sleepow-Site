@@ -4,6 +4,7 @@
 	<language name="English" short="en">
 		<constant name="site_title">Sleepow - The first music therapy pillow</constant>
 		<constant name="phone">(555) 555-5555</constant>
+		<constant name="question">Having Trouble Sleeping ?</constant>
 		<constant name="give_yourself">Give yourself the gift of a good night sleep</constant>
 		<constant name="sleep_faster">SLEEP FASTER</constant>
 		<constant name="sleep_deeper">SLEEP DEEPER</constant>
