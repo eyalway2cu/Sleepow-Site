@@ -95,12 +95,19 @@ div.wrap.clouds {
 
 div.wrap.clouds h1{
 	display: block;
+	font-weight: 400;
+	font-size: 2.2em;
 	margin:0px auto;
 	padding-top: 70px;
+	padding-bottom: 40px;
 
 	color:#3B5997;
 	text-transform: capitalize;
 	text-align: center;
+}
+
+div.wrap.clouds > h1 {
+	font-family: 'Nothing You Could Do', sans-serif; 
 }
 
 div.wrap.clouds div.benefits_conteiner {
@@ -179,18 +186,13 @@ div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(2) {
 	font-weight: bold;
 }
 
-div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(3) {
-	color: #287fb8;
-	font-size: 3.5em;
-	font-weight: bold;
-}
-
 /**
  * Call to action buttons
  */
 div.call_to_action {
 	display: block;
 	padding-top: 50px;
+	padding-bottom: 50px;
 	margin-left: 0px auto;
 	text-align: center;
 }
@@ -292,6 +294,7 @@ div.wrap.stars {
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: auto 1280px;
+	background-color: black;
 }
 
 div.wrap.stars span svg {
@@ -568,6 +571,10 @@ footer h1 {
 	background-position: center center;
 	background-size: auto 250px;
 	color: white;
-	text-transform: capitalize;
+	font-family: 'Nothing You Could Do', sans-serif; 
 	text-align: center;
+}
+
+div.feature.neurosensory_algorithms {
+	display: none !important;
 }
