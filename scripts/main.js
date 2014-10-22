@@ -7,6 +7,12 @@
  */
 
 function on_site_load() {
+
+	$('#button_girl').click(function(event){
+		event.preventDefault();
+		$('div.img_girl').addClass("hidden");
+		$('div.pricing, div.call_to_action').removeClass("hidden");
+	})
 }
 
 $(on_site_load);

@@ -50,23 +50,9 @@
 					</cms:desktop>
 					<h1><cms:text constant="question" /></h1>
 					<h1><cms:text constant="give_yourself"/></h1>
-					<div class="img_girl">
-						<img
-							src="_BASEURL.'/site/images/girl-clouds.png'"
-							alt="img_girl"
-							class="girl"
-							cms:eval="src"
-						/>
-						<a
-							 href="javascript: void(0);"
-							 id="button_girl"
-						>
-						<cms:text constant="learn_how"/>
-					</a>
-					</div>
-					<div class="pricing hidden">
-						<cms:desktop>
-							<img
+					<cms:desktop>
+						<div class="pricing version3">
+							<img 
 								src="_BASEURL.'/site/images/ticket.svg'" 
 								alt="ticket"
 								class="ticket"
@@ -78,20 +64,35 @@
 								class="doctorbox"
 								cms:eval="src"
 								/>
-						</cms:desktop>
-						<div class="pricing_text">
-							<span>
-								<cms:text constant="original_price"/>
-							</span>
-							<span>
-								<cms:text constant="now_only"/>
-							</span>
-							<span>
-								<cms:text constant="99$"/>
-							</span>
+							<div class="pricing_text">
+								<span>
+									<cms:text constant="original_price"/>
+								</span>
+								<span>
+									<cms:text constant="now_only"/>
+								</span>
+								<span>
+									<cms:text constant="99$"/>
+								</span>
+							</div>
 						</div>
-					</div>
-					<div class="call_to_action hidden">
+					</cms:desktop>
+					<cms:mobile>
+						<div class="pricing">
+							<div class="pricing_text">
+								<span>
+									<cms:text constant="original_price"/>
+								</span>
+								<span>
+									<cms:text constant="now_only"/>
+								</span>
+								<span>
+									<cms:text constant="99$"/>
+								</span>
+							</div>
+						</div>
+					</cms:mobile>
+					<div class="call_to_action">
 						<a
 							href="http://www.sleepmusicpillow.com/cart/618180873:1"
 							class="for_myself"
