@@ -69,7 +69,10 @@
 									<cms:text constant="original_price"/>
 								</span>
 								<span>
-									<cms:text constant="now_only"/><br/><cms:text constant="99$"/>
+									<cms:text constant="now_only"/>
+								</span>
+								<span>
+									<cms:text constant="price"/>
 								</span>
 							</div>
 						</div>
@@ -81,7 +84,10 @@
 									<cms:text constant="original_price"/>
 								</span>
 								<span>
-									<cms:text constant="now_only"/><cms:raw text=" "/><cms:text constant="99$"/>
+									<cms:text constant="now_only"/>
+								</span>
+								<span>
+									<cms:text constant="price"/>
 								</span>
 							</div>
 						</div>
@@ -145,17 +151,15 @@
 								/>
 					</cms:desktop>
 					<cms:mobile>
-						<cms:module
-								name="youtube"
-								action="show"
-								text_id="homepage_video"
-								embed="1"
-								width="300"
-								height="300"
-								target="video_player"
-								theme="light"
-								autohide="1"
-								/>
+						<a
+							 href=""
+						>
+							<img
+								src="_BASEURL.'/site/images/youtube.png'"
+								alt="youtube"
+								cms:eval="src"
+							/>
+						</a>
 					</cms:mobile>
 				</div>
 				<div class="wrap black">

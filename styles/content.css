@@ -96,19 +96,12 @@ div.wrap.clouds {
 
 div.wrap.clouds h1{
 	display: block;
-	font-weight: 400;
-	font-size: 2.2em;
 	margin:0px auto;
 	padding-top: 70px;
-	padding-bottom: 40px;
 
 	color:#3B5997;
 	text-transform: capitalize;
 	text-align: center;
-}
-
-div.wrap.clouds > h1 {
-	font-family: 'Nothing You Could Do', sans-serif; 
 }
 
 div.wrap.clouds div.benefits_conteiner {
@@ -361,7 +354,6 @@ div.wrap.stars {
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: auto 1280px;
-	background-color: black;
 }
 
 div.wrap.stars span svg {
@@ -638,7 +630,7 @@ footer h1 {
 	background-position: center center;
 	background-size: auto 250px;
 	color: white;
-	font-family: 'Nothing You Could Do', sans-serif; 
+	text-transform: capitalize;
 	text-align: center;
 }
 

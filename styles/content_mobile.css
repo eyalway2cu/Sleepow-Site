@@ -101,14 +101,11 @@ div.wrap.clouds {
 div.wrap.clouds h1{
 	display: block;
 	margin: 0px 5px;
-	font-size: 2.1em;
+	padding-top: 50px;
 
 	color:#3B5997;
+	text-transform: capitalize;
 	text-align: center;
-}
-
-div.wrap.clouds > h1 {
-	font-family: 'Nothing You Could Do', sans-serif; 
 }
 
 div.wrap.clouds div.benefits_conteiner {
@@ -283,15 +280,21 @@ div.wrap.clouds div.pricing div.pricing_text span {
 
 div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(1) {
 	color: #94a4a5;
-	font-size: 1.8em;
+	font-size: 2.2em;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #94a4a5;
 }
 
 div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(2) {
 	color: #287fb8;
-	font-size: 1.8em;
+	font-size: 2.8em;
 	padding-top: 20px;
+	font-weight: bold;
+}
+
+div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(3) {
+	color: #287fb8;
+	font-size: 3.5em;
 	font-weight: bold;
 }
 
@@ -533,17 +536,6 @@ footer h1 {
 	padding-top: 185px;
 	text-transform: capitalize;
 	text-align: center;
-	font-family: 'Nothing You Could Do', sans-serif; 
 	font-size: 1.5em;
 	color: #00B8F0;
-}
-
-div.feature.neurosensory_algorithms {
-	display: none !important;
-}
-
-iframe.video {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
