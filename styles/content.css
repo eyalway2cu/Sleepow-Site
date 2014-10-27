@@ -351,6 +351,7 @@ div.wrap.clouds div.article p {
 div.wrap.stars {
 	min-height: 1280px;
 	background-image: url(../images/stars-background.jpg);
+	background-color: black;
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: auto 1280px;
