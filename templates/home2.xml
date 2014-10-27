@@ -6,11 +6,11 @@
 		<head>
 			<title><cms:text constant="site_title"/></title>
 			<cms:module name="head_tag" action="print_tag"/>
-			<meta property="og:url" content="http://pillow.expert"/>
-			<meta property="og:title" content="Sleepow - The first music therapy pillow"/> 
-			<meta property="og:description" content="World’s first memory foam pillow featuring a fully-integrated stereo sound machine pre-loaded with Binaural Beats relaxation music Leverages the power of music to promote relaxation and sleep"/> 
-			<meta property="og:image" content="http://pillow.expert/site/images/facebookog.png"/>
-			<meta property="og:type" content="website"/>
+			<meta property="og:url" content="http://pillow.expert" />
+			<meta property="og:title" content="Sleepow - The first music therapy pillow" /> 
+			<meta property="og:description" content="World’s first memory foam pillow featuring a fully-integrated stereo sound machine pre-loaded with Binaural Beats relaxation music Leverages the power of music to promote relaxation and sleep" /> 
+			<meta property="og:image" content="http://pillow.expert/site/images/facebookog.png" />
+			<meta property="og:type" content="website" />
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
@@ -50,9 +50,23 @@
 					</cms:desktop>
 					<h1><cms:text constant="question" /></h1>
 					<h1><cms:text constant="give_yourself"/></h1>
-					<cms:desktop>
-						<div class="pricing">
-							<img 
+					<div class="img_girl">
+						<img
+							src="_BASEURL.'/site/images/girl-clouds.png'"
+							alt="img_girl"
+							class="girl"
+							cms:eval="src"
+						/>
+						<a
+							 href="javascript: void(0);"
+							 id="button_girl"
+						>
+						<cms:text constant="learn_how"/>
+					</a>
+					</div>
+					<div class="pricing hidden">
+						<cms:desktop>
+							<img
 								src="_BASEURL.'/site/images/ticket.svg'" 
 								alt="ticket"
 								class="ticket"
@@ -64,29 +78,20 @@
 								class="doctorbox"
 								cms:eval="src"
 								/>
-							<div class="pricing_text">
-								<span>
-									<cms:text constant="original_price"/>
-								</span>
-								<span>
-									<cms:text constant="now_only"/><br/><cms:text constant="99$"/>
-								</span>
-							</div>
+						</cms:desktop>
+						<div class="pricing_text">
+							<span>
+								<cms:text constant="original_price"/>
+							</span>
+							<span>
+								<cms:text constant="now_only"/>
+							</span>
+							<span>
+								<cms:text constant="99$"/>
+							</span>
 						</div>
-					</cms:desktop>
-					<cms:mobile>
-						<div class="pricing">
-							<div class="pricing_text">
-								<span>
-									<cms:text constant="original_price"/>
-								</span>
-								<span>
-									<cms:text constant="now_only"/><cms:raw text=" "/><cms:text constant="99$"/>
-								</span>
-							</div>
-						</div>
-					</cms:mobile>
-					<div class="call_to_action">
+					</div>
+					<div class="call_to_action hidden">
 						<a
 							href="http://www.sleepmusicpillow.com/cart/618180873:1"
 							class="for_myself"
@@ -145,17 +150,17 @@
 								/>
 					</cms:desktop>
 					<cms:mobile>
-						<cms:module
-								name="youtube"
-								action="show"
-								text_id="homepage_video"
-								embed="1"
-								width="300"
-								height="300"
-								target="video_player"
-								theme="light"
-								autohide="1"
-								/>
+						<a
+							 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
+							 eval="href" 
+							 class=""
+						>
+							<img
+								src="_BASEURL.'/site/images/youtube.png'"
+								alt="youtube"
+								cms:eval="src"
+							/>
+					</a>
 					</cms:mobile>
 				</div>
 				<div class="wrap black">

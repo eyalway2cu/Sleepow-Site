@@ -6,7 +6,7 @@
  * Author: Khalid Sawalhi
  */
 
- 
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -44,7 +44,7 @@ div.wrap span {
 	font-size: 4em;
 }
 
-header div.wrap.clouds img {
+header div.wrap.clouds > img {
 	display: inline-block;
 	width: 200px;
 	text-align: center;
@@ -91,6 +91,7 @@ div.wrap.clouds {
 	background-repeat: no-repeat;
 	background-position: center top;
 	min-height: 800px;
+	position: relative;
 }
 
 div.wrap.clouds h1{
@@ -112,6 +113,7 @@ div.wrap.clouds > h1 {
 
 div.wrap.clouds div.benefits_conteiner {
 	display: block;
+	padding-top: 30px;
 	text-align: center;
 }
 
@@ -137,6 +139,56 @@ div.wrap.clouds div.benefits_conteiner div svg {
 	margin: 40px auto;
 }
 
+div.wrap.clouds div.img_girl.hidden {
+	visibility: hidden;
+	opacity: 0;
+}
+
+div.img_girl {
+	position: absolute;
+	width: 1200px;
+	left: 50%;
+	top: 260px;
+	margin-left: -600px;
+
+	visibility: visible;
+	opacity: 1;
+
+	transition: visibility 0.5s, opacity 0.5s;
+}
+
+div.img_girl img.girl {
+	width: 1000px;
+	display: block;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+
+div.img_girl a {
+	display: block;
+	padding: 15px 20px;
+	border: 1px solid white;
+	border-radius: calc(10px + 1em);
+	background-color: #F0C30E;
+	box-shadow: 0px 0px 0px 5px #F0C30E;
+	color: white;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 1.5em;
+	line-height: 100%;
+	transition: 0.3s all;
+	font-weight: bold;
+	text-align: center;
+	max-width: 140px;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+
+div.img_girl a:hover {
+	background-color: #CC9933;
+	box-shadow: 0px 0px 0px 5px #CC9933;
+}
+
 div.wrap.clouds div.pricing {
 	display: block;
 	position: relative;
@@ -144,6 +196,16 @@ div.wrap.clouds div.pricing {
 	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
+
+	visibility: visible;
+	opacity: 1;
+
+	transition: visibility 0.5s, opacity 0.5s;
+}
+
+div.wrap.clouds div.pricing.hidden, div.call_to_action.hidden{
+	visibility: hidden;
+	opacity: 0;
 }
 
 div.wrap.clouds div.pricing img {
@@ -153,19 +215,19 @@ div.wrap.clouds div.pricing img {
 div.wrap.clouds div.pricing img:first-of-type {
 	width: 600px;
 	left: 450px;
-	top: 100px;
+	top: 140px;
 }
 
 div.wrap.clouds div.pricing img:last-of-type {
 	width: 400px;
 	left: 150px;
-	top: 10px;
+	top: 35px;
 }
 
 div.wrap.clouds div.pricing div.pricing_text {
 	position: absolute;
-	top: 120px;
-	right: 54px;
+	top: 160px;
+	right: -40px;
 	width: 360px;
 }
 
@@ -186,14 +248,19 @@ div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(2) {
 	font-weight: bold;
 }
 
+div.wrap.clouds div.pricing div.pricing_text span:nth-of-type(3) {
+	color: #287fb8;
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
 /**
  * Call to action buttons
  */
 div.call_to_action {
 	display: block;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin-left: 0px auto;
+	padding-top: 85px;
+	margin: 0px auto;
 	text-align: center;
 }
 
@@ -243,7 +310,7 @@ div.call_to_action a.for_myself svg {
 }
 
 div.wrap.clouds h1:nth-of-type(2) {
-	max-width: 500px;
+	padding-top: 20px;
 }
 
 div.wrap div.article {
@@ -575,6 +642,22 @@ footer h1 {
 	text-align: center;
 }
 
-div.feature.neurosensory_algorithms {
-	display: none !important;
+@media (max-width: 1200px) {
+
+	div.img_girl {
+		width: 1000px;
+		margin-left: -500px;
+	}
+
+	div.wrap.clouds div.pricing img:last-of-type {
+		left: 70px;
+	}
+
+	div.wrap.clouds div.pricing img:first-of-type {
+		left: 360px;
+	}
+
+	div.wrap.clouds div.pricing div.pricing_text {
+		right: 50px;
+	}
 }

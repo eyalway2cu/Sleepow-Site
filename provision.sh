@@ -27,10 +27,10 @@ echo phpmyadmin phpmyadmin/app-password-confirm password caracal | debconf-set-s
 echo phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2 | debconf-set-selections
 
 # install database server first
-apt-get -y install mysql-server
+apt-get -y install mysql-server memcached
 
 # install the remaining part of the server stack
-apt-get -y install phpmyadmin libapache2-mod-php5 php5-curl git python-pip
+apt-get -y install phpmyadmin libapache2-mod-php5 php5-curl php5-memcached git python-pip
 
 # install tailon, retry 4 times, pip has a bug
 pip install tailon
@@ -51,6 +51,19 @@ exec /usr/local/bin/tailon \
 EOL
 
 service tailon start
+
+# fix broken sendfile support in VBox
+cd /etc/apache2/sites-enabled
+sed -i '/ServerAdmin/a EnableSendfile off' 000-default
+sed -i '0,/AllowOverride/! s/AllowOverride None/AllowOverride All/' 000-default
+
+# load additional apache modules
+cd /etc/apache2/mods-enabled
+ln -s ../mods-available/headers.load
+ln -s ../mods-available/rewrite.load
+
+# apply apache changes
+service apache2 restart
 
 # clone caracal repository
 cd /var/www

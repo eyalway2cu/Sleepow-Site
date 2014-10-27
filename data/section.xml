@@ -4,4 +4,10 @@
 	<section name="home">
 		<language name="all" file="home.xml" />
 	</section>
+	<section name="2">
+		<language name="all" file="home2.xml" />
+	</section>
+	<section name="3">
+		<language name="all" file="home3.xml" />
+	</section>
 </document>
