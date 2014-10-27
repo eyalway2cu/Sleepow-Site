@@ -137,29 +137,30 @@
 					</span>
 					<h1><cms:text constant="sleep_genius_description"/></h1>
 					<cms:desktop>
-						<div id="video_player"/>
-							<cms:module
-								name="youtube"
-								action="show"
-								text_id="homepage_video"
-								embed="1"
-								width="800"
-								height="400"
-								target="video_player"
-								theme="light"
-								autohide="1"
-								/>
+						<cms:module
+							name="youtube"
+							action="show"
+							text_id="homepage_video"
+							embed="1"
+							width="800"
+							height="400"
+							player_id="video_player"
+							theme="light"
+							autohide="1"
+							/>
 					</cms:desktop>
 					<cms:mobile>
-						<a
-							 href=""
-						>
-							<img
-								src="_BASEURL.'/site/images/youtube.png'"
-								alt="youtube"
-								cms:eval="src"
+						<cms:module
+							name="youtube"
+							action="show"
+							text_id="homepage_video"
+							embed="1"
+							width="100vw"
+							height="56vw"
+							player_id="video_player"
+							theme="light"
+							autohide="1"
 							/>
-						</a>
 					</cms:mobile>
 				</div>
 				<div class="wrap black">
